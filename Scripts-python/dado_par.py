@@ -13,8 +13,8 @@ def dices() :
         os.system("clear")
         dice1 = randint(1,6)
         dice2 = randint(1,6)
-        print("D1: ", dice1)
-        print("D2: ", dice2)
+        print("Dado 1: ", dice1)
+        print("Dado 2: ", dice2)
 
         if dice1 == dice2 :
             status = False
@@ -23,4 +23,4 @@ def dices() :
             key = input(".:: Presiona cualquier tecla para lanzar los dados nuevamente ...")    
 
 #Main
-dices()
+dices()  
