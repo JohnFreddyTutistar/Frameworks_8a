@@ -15,18 +15,18 @@ def menu():
     print("[3. ] Mult")
     print("[4. ] Divi")
     print("[5. ] Cancelar operacion")
-    op = input(".:: Digite una opcion: ")
+    print(".:: Digite una opcion: ")
 
 def calculadora(x, y, z):
-    if z == 1 :
+    if z == '1' :
         ans = x + y
-    elif z == 2 :
+    elif z == '2' :
         ans = x - y 
-    elif z == 3 :
+    elif z == '3' :
         ans = x * y
-    elif z == 4 :
+    elif z == '4' :
         ans = x / y
-    elif z == 5 :
+    elif z == '5' :
         print("La operacion ha sido cancelada")
         ans = 0
     else :
