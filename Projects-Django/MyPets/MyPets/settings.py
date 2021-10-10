@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'gestionadminsitio.apps.GestionAdminSitioConfig',
+    'gestion_admin_sitio.apps.GestionAdminSitioConfig',
+    'tienda_mascotas.apps.TiendaMascotasConfig',
 ]
 
 MIDDLEWARE = [
